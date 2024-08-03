@@ -1,0 +1,112 @@
+body,
+p,
+h1,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #000000;
+}
+
+.superinfo-bg {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #2e2e2e;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  max-width: 100%;
+  align-items: center;
+  height: 60px;
+}
+
+.superinfo {
+  flex: wrap;
+  display: flex;
+  align-items: center;
+}
+
+.superinfo p {
+  color: #008305;
+  font-size: 24px;
+  margin: 0px 0px 0px 20px;
+}
+
+.superinfo span {
+  font-size: 18px;
+  color: #cccccc;
+}
+
+.superinfo-icons {
+  align-items: center;
+  margin-right: 20px;
+}
+
+.superinfo-sociais {
+  display: inline-block;
+  align-items: center;
+  margin-right: 32px;
+}
+
+.superinfo-sociais img {
+  margin-right: 12px;
+}
+
+.superinfo p::after {
+  content: "|";
+  display: inline-block;
+  margin: 0px 10px 0px 10px;
+  color: #cccccc;
+}
+
+.header {
+  position: relative;
+  grid-area: header;
+  background: #111111;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 80px;
+  font-size: 24px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.header ul a {
+  color: #7cff82;
+}
+
+.header ul a:hover {
+  color: #008305;
+}
+
+.escudo {
+  position: absolute;
+  top: 20px;
+  left: 220px;
+}
+
+.socios {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #cccccc;
+  padding: 0px 40px;
+}
+
+.socios-numeros {
+  color: #7cff82;
+}
