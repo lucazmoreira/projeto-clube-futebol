@@ -110,3 +110,9 @@ body {
 .socios-numeros {
   color: #7cff82;
 }
+
+@media (max-width: 2100px) {
+  .escudo {
+    display: none;
+  }
+}
